@@ -2,6 +2,7 @@
 
 using namespace std;
 
+/**função que calcula o maior prefixo que tambem é sufixo de uma string*/
 int longestPrefixSuffix(string s){
 	int n = s.size();
 	

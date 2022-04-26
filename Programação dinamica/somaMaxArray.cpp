@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/**função que calcula qual a maior soma contigua de um vetor*/
 int maxSum(int *a,int n){
 	int best = 0, sum = 0;
 	for(int i=0;i<n;i++){

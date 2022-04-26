@@ -4,6 +4,7 @@ vector<pii> g[N];
 
 list<int> cyc;
 
+/** função que preenche a lista cyc com o caminho euleriano de um grafo*/
 void euler(list<int>::interator i, int u){
 	for(int j=0;j<g[u].size();j++){
 		pii v = g[u][j];

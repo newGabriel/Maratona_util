@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/** Função que calcula o tamanho da maior sequencia crescente*/
 int lis(vector<int> &v){
 
 	vector<int> pilha;

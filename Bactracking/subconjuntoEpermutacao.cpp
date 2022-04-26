@@ -6,6 +6,7 @@ int v[3]={0,0,0};
 vector<int> permutation;
 bool cv[3];
 
+/** função que printa todos subconjuntos de um conjunto de n*/
 void subconjuntos(int k, int n){
 	if(k==n){
 		printf("{ ");
@@ -24,6 +25,7 @@ void subconjuntos(int k, int n){
 	}
 }
 
+/** função que printa as permutações de um conjunto de n elementos*/
 void permutacao(int n){
 	if(permutation.size()==n){
 		printf("{");

@@ -6,6 +6,7 @@ using namespace std;
 
 set<pair<int,int>> queens;
 
+/**Função que verifica se existe alguma rainha atacada*/
 bool ataca(int q1x,int q1y,int q2x,int q2y,int tam){
 	if(q1x==q2x)return true;
 	if(q1y==q2y)return true;
@@ -32,6 +33,7 @@ bool ataca(int q1x,int q1y,int q2x,int q2y,int tam){
 	return false;
 }
 
+/**Backtracking que calcula a posição das rainhas*/
 bool nQueens(int tam,int col){
 	if(col==tam)return true;
 	for(int i=0;i<tam;i++){
@@ -49,6 +51,7 @@ bool nQueens(int tam,int col){
 	return false;
 }
 
+/**Função que imprime o tabuleiro*/
 void tab(int tam){
 	for(int i=0;i<tam;i++){
 		for(int j=0;j<tam;j++){

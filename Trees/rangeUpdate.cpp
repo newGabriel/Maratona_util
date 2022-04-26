@@ -10,6 +10,7 @@ int arr[N]; ///array de dados do problema
 int n,q;
 int o,a,b,k;
 
+/**função que constroi uma arvore*/
 void build(int i,int l,int r){
 	if(l==r) //se estamos em uma folha
 		st[i] = arr[l];
@@ -23,6 +24,7 @@ void build(int i,int l,int r){
 	}
 }
 
+/** função que faz uma consulta na arvore*/
 int query(int i, int l, int r, int pos){
 	if(l==r)
 		return st[i];
@@ -35,6 +37,7 @@ int query(int i, int l, int r, int pos){
 	}
 }
 
+/** função que atualiza um segmento na arvore*/
 void update(int i, int l, int r, int ql, int qr,int q){
 	if(qr<l||r<ql)return;
 	if(ql<=l&&r<=qr){

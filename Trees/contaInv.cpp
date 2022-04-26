@@ -1,3 +1,6 @@
+/**
+@brief algoritimo que conta as inverções necessarias para ordenar um vetor usando uma BIT
+*/
 #include <iostream>
 #include <stdio.h>
 #include <string.h>

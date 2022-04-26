@@ -1,3 +1,6 @@
+/**
+@brief codigo que monta uma segtree sem update e faz consultas em rang
+*/
 #include<stdio.h>
 #include<iostream>
 

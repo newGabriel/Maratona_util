@@ -1,3 +1,6 @@
+/**
+@brief problema da mochila binaria
+*/
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

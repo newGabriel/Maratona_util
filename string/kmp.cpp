@@ -19,6 +19,7 @@ void kmpPreprocess(){
 	}
 }
 
+/** Função que calcula procura ocorrenciass de uma substring p em uma string t*/
 void kmpSearch(){
 	int i=0,j=0;
 	while(i<t.size()){

@@ -1,3 +1,6 @@
+/**
+@brief menor ancestral comum
+*/
 #include <iostream>
 #include <stdio.h>
 #include <vector>

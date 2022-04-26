@@ -1,4 +1,4 @@
-void colore(int x){
+void colore(int x){ //função que percorre um grafo e aplica cores diferentes em vertices vizinhos 
 	
 	color[x] = 0;
 	
@@ -24,6 +24,7 @@ void colore(int x){
 	}
 }
 
+/** função que checa se um grafo é bipartido*/
 bool checa_bipartido(){
 	for(int i = 0;i < n;i++){
 		if(color[i] == -1){

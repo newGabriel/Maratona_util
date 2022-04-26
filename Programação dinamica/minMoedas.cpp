@@ -1,3 +1,4 @@
+/** função que calcula o número minimo de moedas para dar um troco*/
 int minMoedas(int n,vector<int> bit){
 	//n = valor total
 	//bit = moedas disponiveis

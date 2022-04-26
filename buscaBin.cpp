@@ -1,3 +1,6 @@
+/**
+@brief busca binaria
+*/
 int busca(vector<int> v, int n, int in, int f){
 	while(in<=f){
 		int pos = (f+in)/2;

@@ -5,10 +5,12 @@
 #define INF 1000000
 
 using namespace std;
-
+/**Algoritimo de merge sort (descomente os trechos para retornar a contagem de inversões)*/
 void merge_sort(vector<int> &v){
 	
 	if(v.size()==1)return; //se o vetor só tiver um item já está ordenado
+
+  //int inv = 0
 
 	vector<int> u1,u2; //vetores auxiliares
 
@@ -19,8 +21,8 @@ void merge_sort(vector<int> &v){
 		u2.push_back(v[i]);
 	}
 	
-	merge_sort(u1);
-	merge_sort(u2);
+	/*inv+=*/merge_sort(u1);
+	/*inv+=*/merge_sort(u2);
 	
 	u1.push_back(INF);
 	u2.push_back(INF);
@@ -35,9 +37,10 @@ void merge_sort(vector<int> &v){
 		else{
 			v[i] = u2[_2];
 			_2++;
+		  //inv+=u1.size()-_1;
 		}
 	}
-	return;
+	return /*inv*/;
 }
 
 int main(void){

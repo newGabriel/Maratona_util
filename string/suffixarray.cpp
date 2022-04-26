@@ -49,6 +49,7 @@ vector<int>sortS(string const &s){
     return p;
 }
 
+/**função que constroi o array de sufixos de uma string*/
 vector<int> suffix_array_construction(string s) {
     s += "$";
     vector<int> sorted_shifts = sortS(s);

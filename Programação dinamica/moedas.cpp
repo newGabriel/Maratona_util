@@ -8,6 +8,7 @@ using namespace std;
 
 int dp[MAX];
 
+/** função que calcula se é possivel dar um troco com um dado conjunto de moedas*/
 int solve(int x, vector<int>& c){
 	if(x==0)return 1;
 	if(x<0)return 0;

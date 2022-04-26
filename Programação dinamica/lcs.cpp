@@ -1,3 +1,6 @@
+/**
+@brief maior sequencia comum
+*/
 #include <algorithm>
 
 #define MAXN 1010

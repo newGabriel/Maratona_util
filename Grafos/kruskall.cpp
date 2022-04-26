@@ -1,3 +1,6 @@
+/**
+@brief MST kruskall
+*/
 #include <iostream>
 #include <algorithm>
 

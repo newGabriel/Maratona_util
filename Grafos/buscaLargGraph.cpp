@@ -1,3 +1,7 @@
+/**
+@brief busca em largura
+*/
+#include <bits/stdc++.h>
 #define N 10000
 
 using namespace std;

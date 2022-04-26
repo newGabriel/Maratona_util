@@ -1,3 +1,6 @@
+/**
+@brief busca em profundidade
+*/
 #include <bits/stdc++.h>
 #define MAX 1005
 
