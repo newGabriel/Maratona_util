@@ -36,7 +36,8 @@ int LCA(int u, int v){
 	if(u==v)return u;
 
 	for(int i = MAXL-1;i>=0;i--){
-		if(ancestral[u][i] != -1 && ancestral[u][i]!=ancestral[v][i]){
+		if(ancestral[u][i] != -1 
+			&& ancestral[u][i]!=ancestral[v][i]){
 			u = ancestral[u][i];
 			v = ancestral[v][i];
 		}
